@@ -1,15 +1,60 @@
-{{set . "title" "Home"}} {{template "header.html" .}}
+{{set . "title" "Aditya Hastungkoro Hadi"}} {{template "header.html" .}}
 
-<header class="jumbotron" style="background-color:#A9F16C">
-  <div class="container">
-    <div class="row">
-      <h1>Hello!</h1>
-      <h3>Sorry this site is still under construction</h3>
-      <i>Made using Go Revel</i>
-      <p></p>
-    </div>
+
+<div id="wrapper">
+  <div id="bg"></div>
+  <div id="overlay"></div>
+  <div id="main">
+
+    <!-- Header -->
+    <header id="header">
+      <h1>Aditya Hastungkoro Hadi</h1>
+      <p>Game, Mobile & Web App Developer</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://twitter.com/adityahazz" target="_blank" class="icon fa-twitter">
+              <span class="label">Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/aditya.hazz" target="_blank" class="icon fa-facebook">
+              <span class="label">Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/adityahas" class="icon fa-github" target="_blank">
+              <span class="label">Github</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/adityahadi" class="icon icon fa-code" target="_blank">
+              <span class="label">Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:adityahas@gmail.com" class="icon fa-envelope-o" target="_blank">
+              <span class="label">Email</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <span class="copyright">&copy; Design:
+        <a href="http://html5up.net">HTML5 UP</a>.</span>
+    </footer>
+
   </div>
-</header>
+</div>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script>
+  window.onload = function () { document.body.className = ''; }
+  window.ontouchmove = function () { return false; }
+  window.onorientationchange = function () { document.body.scrollTop = 0; }
+</script>
 
 <div class="container">
   <div class="row">
